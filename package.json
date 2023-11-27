@@ -1,20 +1,14 @@
 {
-  "version": "1.2.1",
+  "version": "1.2.8",
   "description": "Pivot table",
   "engines": {
     "node": ">=8.x"
   },
-  "keywords": [
-    "apitable",
-    "widgets",
-    "apitable widgets"
-  ],
+  "keywords": ["apitable", "widgets", "apitable widgets"],
   "main": "./dist/index",
   "module": "./dist/index",
   "types": "./dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "license": "MIT",
   "scripts": {
     "test": "jest",
@@ -26,9 +20,7 @@
     "^.+\\.(t|j)sx?$": "ts-jest"
   },
   "jest": {
-    "testMatch": [
-      "**/__tests__/**/*.test.(t|j)s"
-    ]
+    "testMatch": ["**/__tests__/**/*.test.(t|j)s"]
   },
   "peerDependencies": {
     "react": "*",
@@ -39,7 +31,7 @@
     "@types/react-dom": "^16.9.8",
     "@apitable/components": "latest",
     "@apitable/icons": "^1.2.0",
-    "@apitable/widget-sdk": "^1.2.0",
+    "@apitable/widget-sdk": "latest",
     "ali-react-table": "2.6.1",
     "dayjs": "^1.10.7",
     "lodash": "^4.17.21",
